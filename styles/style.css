@@ -18,15 +18,18 @@
   background-color:  #f2f2f2;
   position: relative;
 }
+
 .logo {
   width: 183px;
   height: 32px;
 }
+
 .logo_place_header {
   background-image: url(/Users/4739372/dev/how-to-learn/images/logo_place_header.svg);
   position: absolute;
   margin: 30px 0 0 64px;
 }
+
 .header__title {
   margin-top: 0;
   margin-bottom: 0;
@@ -37,6 +40,7 @@
   align-self: center;
   font-size: 102px;
 }
+
 .header__subtitle {
   margin: 0;
   width: 388px;
@@ -48,6 +52,7 @@
   left: 64px;
   bottom: 30px;
 }
+
 .header__main-illustration {
   background-image: url(/Users/4739372/dev/how-to-learn/images/header-image.png);
   background-size: cover;
@@ -58,6 +63,7 @@
   right:0px;
   z-index: 1;
 }
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -114,21 +120,58 @@
 }
 
 .digits {
-  display: flex;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
+  margin: 0;
   width: 60%;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .section-subtitle {
+  margin: 0;
   width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .table {
-  margin: 0 auto 20px;
+  margin: 0 auto;
   width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.table__cell {
+  list-style: none;
+  width: 250px;
+  margin: 60px 0 0 0;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
