@@ -74,10 +74,6 @@
   right: 0;
 }
 
-.description {
-
-}
-
 .two-columns {
   margin: 100px auto 0;
   width: 80%;
@@ -125,11 +121,8 @@
 }
 
 .section-title {
-  margin: 0;
+  margin: 0 auto 20px;
   width: 60%;
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -173,10 +166,159 @@
   font-weight: normal;
   margin: 20px 0;
 }
+
+.feynman {
+  background-color: #f2f2f2;
+  background-image: url(/Users/4739372/dev/how-to-learn/images/feynman.png);
+  background-size: 867px 637px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  min-height: 890px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  margin: 70px auto 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.feynman__link {
+  position:absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.kaufman {
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  margin: 0 auto 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.section-subtitle_theme_dark {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  z-index: 2;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
   margin-top: 80px;
+  z-index: 2;
+}
+
+.table__heading_theme_dark {
+  color: white;
+  z-index: 2;
+}
+
+.table__text_theme_dark {
+  color: white;
+  z-index: 2;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  width: 877px;
+  height: 877px;
+  z-index: 1;
+}
+
+.footer {
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns {
+  display: flex;
+  flex-basis: 711px;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__column_content_copyright {
+  width: 50%;
+  position: relative;
+}
+
+.logo_place_footer {
+  background-image: url(/Users/4739372/dev/how-to-learn/images/logo_place_footer.svg);
+  background-size: cover;
+  height: 35px;
+  width: 183px;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 18px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  color: white;
+  display: inline;
+}
+
+.footer__column-heading {
+  color: white;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-link {
+  color: white;
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__column-link:nth-of-type(3n) {
+  margin-bottom: 16px;
 }
